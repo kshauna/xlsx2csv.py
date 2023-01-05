@@ -1,5 +1,5 @@
 # xlsx2csv.py
-
+```
 import glob
 import os
 from os.path import exists
@@ -100,3 +100,4 @@ finaldf= con_df.filter(items=['SpecimenID','TagFsequence','TagRsequence','Primer
 
 #Changing dataframe to csv format
 finaldf.to_csv("finalcsv.csv",index=False)
+```
